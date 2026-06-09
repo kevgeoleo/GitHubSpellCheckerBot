@@ -1,10 +1,10 @@
-# GitHub Spellbot
+# GitHubSpellCheckerBot
 
 Scans GitHub repositories and detects spelling mistakes in specified files
 
 ## Configurations
 
-Modify fields within config.js
+Modify fields within `config.js`
 
 | Configuration Option | Description                                                                                                                           |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
