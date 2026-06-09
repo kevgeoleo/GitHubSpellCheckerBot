@@ -24,6 +24,12 @@ npm install
 ```
 
 2. Modify `config.js` as per need
+3. Add you GitHub API key to `.env`
+
+```bash
+GITHUB_TOKEN=<your-github-token>
+```
+
 3. Run using node:
 
 ```bash
