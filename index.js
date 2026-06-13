@@ -69,6 +69,9 @@ async function run() {
       cache.add(repoName);
       saveCache(config.cacheFile, cache);
 
+      // insurance in case of crash
+      saveResults("results.json", repoResults);
+
       await new Promise(r => setTimeout(r, config.delay));
     } catch (err) {
       console.log(`⚠️ Skipping repository ${repoName}:`, err.message);
