@@ -31,7 +31,7 @@ GITHUB_TOKEN=<your-github-token>
 ```
 New token can be generated here: https://github.com/settings/tokens
 
-3. Run using node:
+3. Run using node (Recommended: Node v24+ otherwise spellchecker module won't function):
 
 ```bash
 node index.js
